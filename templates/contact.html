@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone - Contact Us</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">
+                    <h1>FIT<span>ZONE</span></h1>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/services" class="nav-link">Services</a></li>
+                <li><a href="/about" class="nav-link">About</a></li>
+                <li><a href="/contact" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact <span>Us</span></h1>
+            <p>Get in touch and start your fitness journey today</p>
+        </div>
+    </section>
+
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-section">
+                    <h2>Send Us a <span>Message</span></h2>
+                    <form class="contact-form" id="contactForm" action="/contact" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name*</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name*</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">I'm interested in:</label>
+                            <select id="interest" name="interest">
+                                <option value="">Select an option</option>
+                                <option value="membership">Gym Membership</option>
+                                <option value="personal-training">Personal Training</option>
+                                <option value="group-classes">Group Classes</option>
+                                <option value="nutrition">Nutrition Counseling</option>
+                                <option value="free-pass">Free Day Pass</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info-section">
+                    <h2>Get in <span>Touch</span></h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>📍 Location</h3>
+                            <p>123 Fitness Street<br>Gym City, GC 12345</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Pune" class="link" target="_blank" rel="noopener">Get Directions</a>
+                        </div>
+                        <div class="info-item">
+                            <h3>📞 Phone</h3>
+                            <p>Main: (555) 123-4567<br>Personal Training: (555) 123-4568</p>
+                            <a href="tel:5551234567" class="link">Call Now</a>
+                        </div>
+                        <div class="info-item">
+                            <h3>✉️ Email</h3>
+                            <p>General: info@fitzone.com<br>Membership: join@fitzone.com</p>
+                            <a href="mailto:info@fitzone.com" class="link">Send Email</a>
+                        </div>
+                        <div class="info-item">
+                            <h3>🕐 Hours</h3>
+                            <p><strong>Monday - Friday:</strong> 5:00 AM - 11:00 PM<br>
+                                <strong>Saturday - Sunday:</strong> 6:00 AM - 10:00 PM<br>
+                                <strong>Holidays:</strong> 8:00 AM - 6:00 PM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="#" aria-label="Facebook">Facebook</a>
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="Twitter">Twitter</a>
+                            <a href="#" aria-label="YouTube">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find <span>Us</span></h2>
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=Pune&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+                    height="400" style="border:0; border-radius:10px;" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are your membership options?</h3>
+                    <p>We offer Basic ($29/month), Premium ($59/month), and Elite ($99/month) memberships. Each tier
+                        includes different benefits and access levels.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer free trials?</h3>
+                    <p>Yes! We offer a complimentary day pass for first-time visitors. Contact us to schedule your free
+                        visit.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are personal trainers included?</h3>
+                    <p>Personal training sessions are included with Premium (1/month) and Elite (4/month) memberships.
+                        Additional sessions can be purchased.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I bring for my first visit?</h3>
+                    <p>Bring a valid ID, water bottle, workout clothes, and athletic shoes. We provide towels and have
+                        lockers available.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there parking available?</h3>
+                    <p>Yes, we have free parking for all members with over 200 spots available.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I freeze my membership?</h3>
+                    <p>Yes, memberships can be frozen for up to 3 months per year for medical or travel reasons.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Fitness Journey?</h2>
+            <p>Join FitZone today and transform your life!</p>
+            <a href="#contactForm" class="btn btn-primary btn-large">Get Your Free Pass</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FIT<span>ZONE</span></h3>
+                    <p>Your journey to a healthier, stronger you starts here.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Monday - Friday: 5:00 AM - 11:00 PM</p>
+                    <p>Saturday - Sunday: 6:00 AM - 10:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 123 Fitness Street, Gym City</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>✉️ info@fitzone.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitZone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
